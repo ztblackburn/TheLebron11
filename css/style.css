@@ -1,6 +1,9 @@
 body {
-  background-color: black;
+  background-image: url("background-m.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
   color: #e606c0;
+  background: black;
 }
 .scratch {
   width: 20%;
