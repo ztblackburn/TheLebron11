@@ -1,4 +1,27 @@
 body {
-  background-color: lime;
+  background-color: black;
   color: #e606c0;
+}
+.scratch {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  z-index: 100;
+  right: 5%;
+  top: 10%;
+}
+.bubble {
+  width: 50%;
+}
+.shoe {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+h2 {
+  color: white;
+  font-size: 1em;
+}
+h1 {
+  display: black;
 }
