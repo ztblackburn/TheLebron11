@@ -1,9 +1,10 @@
 body {
-  background-image: url("background-m.jpg");
-  background-position: center center;
+  margin: 0;
+  padding: 0;
+  background-image: url("file:///Users/zacharyblackburn/Documents/Websites/TheLebron11/backgroundm.jpg");
   background-repeat: no-repeat;
-  color: #e606c0;
-  background: black;
+  background-size: cover;
+  background-position: left top;
 }
 .scratch {
   width: 20%;
@@ -12,6 +13,9 @@ body {
   z-index: 100;
   right: 5%;
   top: 10%;
+}
+.scratch .message {
+  font-size: 0.75em;
 }
 .bubble {
   width: 50%;
@@ -23,8 +27,12 @@ body {
 }
 h2 {
   color: white;
-  font-size: 1em;
+  font-size: 0.75em;
 }
 h1 {
   display: black;
+}
+.galaxy {
+  background-color: black;
+  color: wheat;
 }
